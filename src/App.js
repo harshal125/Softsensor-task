@@ -1,6 +1,13 @@
 import React from "react";
-import './App.css'
-import TextfieldCamponent from './camponents/TextFieldCamponent'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+// import Navbar from "./camponent/Navbar";
+import HomePage from "./camponent/HomePage";
 
 
 
@@ -8,10 +15,14 @@ import TextfieldCamponent from './camponents/TextFieldCamponent'
 const App = () => {
 
   return (
-    <div className="App">
-     <TextfieldCamponent/>
+
+    <div>
+
+
+      <HomePage />
+
     </div>
   );
-};
+}
 
-export default App;
+export default App

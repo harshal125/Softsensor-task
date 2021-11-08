@@ -1,0 +1,9 @@
+.navbar-main{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+}
